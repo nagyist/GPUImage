@@ -739,6 +739,8 @@ NSString *const kGPUImagePassthroughFragmentShaderString = SHADER_STRING
         {
             [currentTarget endProcessing];
         }
+        
+        isEndProcessing = NO;
     }
 }
 

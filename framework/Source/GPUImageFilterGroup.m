@@ -183,6 +183,8 @@
         {
             [currentTarget endProcessing];
         }
+        
+        isEndProcessing = NO;
     }
 }
 
